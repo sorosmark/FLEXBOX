@@ -10,6 +10,8 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
+    
     justify-content: center;
     width: 80%;
     gap: 10px;
@@ -21,4 +23,8 @@ body{
     background-color: chartreuse;
     border-radius: 5px;
     
+}
+
+.p{
+    font-size: 300%;
 }
